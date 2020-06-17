@@ -40,9 +40,7 @@
 		
 		<!-- Execute SonarQube Scanner for Ant Analysis -->
 		<sonar:sonar />
-	</target>
-
-	<!-- ========= The main target "all" ========= -->
+	</target><!-- ========= The main target "all" ========= -->
 	<target name="all" depends="clean,compile,sonar" />
 
 </project>
