@@ -39,12 +39,12 @@
 			<!-- Update the following line, or put the "sonar-ant-task-*.jar" file in your "$HOME/.ant/lib" folder -->
 			<classpath path="C:/Users/vamshi/Downloads/apache-ant-1.9.15/lib/sonarqube-ant-task-*.jar" />
 		</taskdef>
-		<taskdef uri="antlib:org.jacoco.ant" resource="org/jacoco/ant/antlib.xml">
+		<!-- <taskdef uri="antlib:org.jacoco.ant" resource="org/jacoco/ant/antlib.xml">
 			<classpath path="C:/Users/vamshi/Downloads/apache-ant-1.9.15/lib/jacocoant.jar"/>
-	   	 </taskdef>
+	   	 </taskdef> -->
 
 		<!-- Execute SonarQube Scanner for Ant Analysis -->
-		<sonar:sonar />
+		<!-- <sonar:sonar /> -->
 	</target><!-- ========= The main target "all" ========= -->
 	<target name="all" depends="clean,compile,sonar" />
 
